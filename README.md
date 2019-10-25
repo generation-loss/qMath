@@ -1,6 +1,6 @@
 # qMath
 
-qMath is a c++ math library, designed for rendering data that targets the GPU. 
+qMath is a c++ math library designed for rendering data that targets the GPU. 
 
 ## Why another math library?
 
