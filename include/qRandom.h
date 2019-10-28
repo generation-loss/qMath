@@ -49,20 +49,46 @@ T qRandom(const T min, const T max)
 	return min + offset;
 }
 
+template<typename T, int ALIGN>
+qVector2_T<T, ALIGN> qRandom(const qVector2_T<T, ALIGN> min, const qVector2_T<T, ALIGN> max)
+{
+    qVector2_T<T, ALIGN> result;
+    result.x = qRandom(min.x, max.x);
+    result.y = qRandom(min.y, max.y);
+    return result;
+}
+
+template<typename T, int ALIGN>
+qVector3_T<T, ALIGN> qRandom(const qVector3_T<T, ALIGN> min, const qVector3_T<T, ALIGN> max)
+{
+    qVector3_T<T, ALIGN> result;
+    result.x = qRandom(min.x, max.x);
+    result.y = qRandom(min.y, max.y);
+    result.z = qRandom(min.z, max.z);
+    return result;
+}
+
+template<typename T, int ALIGN>
+qVector4_T<T, ALIGN> qRandom(const qVector4_T<T, ALIGN> min, const qVector4_T<T, ALIGN> max)
+{
+    qVector4_T<T, ALIGN> result;
+	result.x = qRandom(min.x, max.x);
+	result.y = qRandom(min.y, max.y);
+	result.z = qRandom(min.z, max.z);
+	result.w = qRandom(min.w, max.w);
+    return result;
+}
+
 template<class T>
 qRGBA<T> qRandom(const qRGBA<T> min, const qRGBA<T> max)
 {
-    qRGBA<T> temp;
-    temp.r = qRandom(min.r, max.r);
-    temp.g = qRandom(min.g, max.g);
-    temp.b = qRandom(min.b, max.b);
-    temp.a = qRandom(min.a, max.a);
-    return temp;
+    qRGBA<T> result;
+    result.r = qRandom(min.r, max.r);
+    result.g = qRandom(min.g, max.g);
+    result.b = qRandom(min.b, max.b);
+    result.a = qRandom(min.a, max.a);
+    return result;
 }
-
-qVector2 qRandom(const qVector2 min, const qVector2 max);
-qVector3 qRandom(const qVector3 min, const qVector3 max);
-qVector4 qRandom(const qVector4 min, const qVector4 max);
 
 float qRandomGaussian(const float mean, const float stdDev);
 

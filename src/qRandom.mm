@@ -45,33 +45,6 @@ void qSeedRandom(int seed)
 	srand(seed == 0 ? (uint)time(NULL) : seed);
 }
 
-qVector2 qRandom(const qVector2 min, const qVector2 max)
-{
-    qVector2 temp;
-    temp.x = qRandom<float>(min.x, max.x);
-    temp.y = qRandom<float>(min.y, max.y);
-    return temp;
-}
-
-qVector3 qRandom(const qVector3 min, const qVector3 max)
-{
-    qVector3 temp;
-    temp.x = qRandom<float>(min.x, max.x);
-    temp.y = qRandom<float>(min.y, max.y);
-    temp.z = qRandom<float>(min.z, max.z);
-    return temp;
-}
-
-qVector4 qRandom(const qVector4 min, const qVector4 max)
-{
-    qVector4 temp;
-    temp.x = qRandom<float>(min.x, max.x);
-    temp.y = qRandom<float>(min.y, max.y);
-    temp.z = qRandom<float>(min.z, max.z);
-    temp.w = qRandom<float>(min.w, max.w);
-    return temp;
-}
-
 float qRandomGaussian(const float mean, const float stdDev)
 {    
     const int iterations = 12;
