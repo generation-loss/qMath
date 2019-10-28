@@ -116,6 +116,7 @@
 				D2FD1CA4131B6ECE00B48F05 /* qMatrix2.h */,
 				D27091B4116BF02C007A11BE /* qMatrix3.h */,
 				D27092D9116C595A007A11BE /* qMatrix4.h */,
+				D2DC2D7B11E8E717007C35BB /* qRGBA.h */,
 				5EC09BDF1F7E99FA00DD6511 /* qCamera.h */,
 				5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */,
 				D2C674BB11548547006113D0 /* qRandom.h */,
@@ -124,7 +125,6 @@
 				D2540C3911557FE4000FD8B6 /* qRange.mm */,
 				D2EEB9FA116517C60059DFF2 /* qUtil.h */,
 				D2EEB9FC116517D60059DFF2 /* qUtil.mm */,
-				D2DC2D7B11E8E717007C35BB /* qRGBA.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
