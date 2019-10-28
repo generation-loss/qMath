@@ -113,7 +113,7 @@ namespace qJSON
 	qRangeI RangeI(NSDictionary* JSON, NSString* key, qRangeI defaultValue = qRangeI(0, 1));
 
 	qRangeF RangeF(NSArray* array, qRangeF defaultValue = qRangeF(0.0f, 1.0f));
-	qRangeI RangeI(NSArray* array, qRangeI defaultValue = qRangeI(0.0f, 1.0f));
+	qRangeI RangeI(NSArray* array, qRangeI defaultValue = qRangeI(0, 1));
 }
 
 #endif //__Q_RANGE_H__
