@@ -634,6 +634,7 @@ public:
 
 };
 
+typedef qMatrix4_T<double> qMatrix4d;
 typedef qMatrix4_T<float> qMatrix4;
 typedef qMatrix4_T<half> qMatrix4h;
 

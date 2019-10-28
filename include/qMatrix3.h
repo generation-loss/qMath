@@ -458,6 +458,7 @@ public:
 
 };
 
+typedef qMatrix3_T<double> qMatrix3d;
 typedef qMatrix3_T<float> qMatrix3;
 typedef qMatrix3_T<half> qMatrix3h;
 

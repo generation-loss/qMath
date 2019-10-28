@@ -317,6 +317,7 @@ public:
 
 };
 
+typedef qMatrix2_T<double> qMatrix2d;
 typedef qMatrix2_T<float> qMatrix2;
 typedef qMatrix2_T<half> qMatrix2h;
 
