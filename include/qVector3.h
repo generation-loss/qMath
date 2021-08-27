@@ -269,12 +269,12 @@ public:
 	{
 		//there are an infinite number of perpendicular vectors to a 3d vector;
 		//this just provides a consistent way to find one, such that the dot product is zero
-		qVector3_T v(-z, T(0), x);
+		qVector3_T v(-y, x, T(0));
 		
-		//on the chance x & z are both 0
+		//on the chance x & y are both 0
 		if (v.Length() == T(0))
 		{
-			v = qVector3_T(-y, T(0), T(0));
+			v = qVector3_T(-z, T(0), T(0));
 			qASSERTM(v.Length() != T(0), "Asking for perpendicular vector to 0,0,0");
 		}
 		
