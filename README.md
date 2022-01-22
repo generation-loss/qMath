@@ -12,11 +12,12 @@ Most math libraries are designed for general purpose math on the CPU, often taki
 - 2x2, 3x3, and 4x4 matrix types, again at half, float, and double precision
 - A dedicated RGBA type, which has half, float, and 8-bit unsigned precision support
 - A range type, which supports random sampling with both uniforma and Guassian distributions
+- A plane type, at half, float or double precision
 
 ## What are the features of qMath?
 
 - All types are templated, for both data type and alignment; a simple typedef allows you to produce any new vector, matrix, or RGBA type you might need (e.g. unsigned long 3 component vectors)
-- All built-in data types are tightly packed: 32-bit vector 3's take up 12 bytes (not 16 as in many libraries), reducing memory usage
+- All built-in data types are tightly packed: for example 32-bit float vector 3's take up 12 bytes (not 16 as in many libraries), reducing memory usage
 - All types have the expect suite of operations: addition, subtraction, multiplication, division, along with things that are often handy in rendering:
     - Vectors: member and static functions for length, normalization, dot product, cross-product, absolute value, and compontent-wise min and max 
     - Matrices: static functions for scale, rotation, and transpose 
