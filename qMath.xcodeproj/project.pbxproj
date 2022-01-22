@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E753D50279BCB7C001A724A /* qPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D4F279BCB7B001A724A /* qPlane.h */; };
 		5EC09BDE1F7E99EF00DD6511 /* qCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */; };
 		AA747D9F0F9514B9006C5449 /* qMath_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* qMath_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E753D4F279BCB7B001A724A /* qPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qPlane.h; path = include/qPlane.h; sourceTree = "<group>"; };
 		5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = qCamera.mm; path = src/qCamera.mm; sourceTree = "<group>"; };
 		5EC09BDF1F7E99FA00DD6511 /* qCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qCamera.h; path = include/qCamera.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* qMath_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qMath_Prefix.pch; sourceTree = SOURCE_ROOT; };
@@ -116,6 +118,7 @@
 				D2FD1CA4131B6ECE00B48F05 /* qMatrix2.h */,
 				D27091B4116BF02C007A11BE /* qMatrix3.h */,
 				D27092D9116C595A007A11BE /* qMatrix4.h */,
+				5E753D4F279BCB7B001A724A /* qPlane.h */,
 				D2DC2D7B11E8E717007C35BB /* qRGBA.h */,
 				5EC09BDF1F7E99FA00DD6511 /* qCamera.h */,
 				5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */,
@@ -161,6 +164,7 @@
 				D2EEB9FB116517C60059DFF2 /* qUtil.h in Headers */,
 				D2F4B81F116A6B2E00BA1269 /* qVector3.h in Headers */,
 				D27091B5116BF02C007A11BE /* qMatrix3.h in Headers */,
+				5E753D50279BCB7C001A724A /* qPlane.h in Headers */,
 				D27092DA116C595A007A11BE /* qMatrix4.h in Headers */,
 				D2DC2D7C11E8E717007C35BB /* qRGBA.h in Headers */,
 				D2FD1CA5131B6ECE00B48F05 /* qMatrix2.h in Headers */,
@@ -266,7 +270,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = qMath_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../qCore/include\"";
 				INSTALL_PATH = /usr/local/lib;
@@ -287,7 +291,7 @@
 				GCC_MODEL_TUNING = G4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = qMath_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../qCore/include\"";
 				INSTALL_PATH = /usr/local/lib;
@@ -419,7 +423,7 @@
 				GCC_MODEL_TUNING = G4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = qMath_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../qCore/include\"";
 				INSTALL_PATH = /usr/local/lib;

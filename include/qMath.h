@@ -31,6 +31,8 @@ SOFTWARE.
 #include "qMatrix3.h"
 #include "qMatrix4.h"
 
+#include "qPlane.h"
+
 #include "qCamera.h"
 #include "qRandom.h"
 #include "qRange.h"
