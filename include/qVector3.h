@@ -364,7 +364,7 @@ public:
 	}
 } __attribute__ ((aligned (ALIGN)));
 
-typedef qVector3_T<double, 4> qVector3d;
+typedef qVector3_T<double, 8> qVector3d;
 typedef qVector3_T<float, 4> qVector3;
 typedef qVector3_T<half, 2> qVector3h;
 
