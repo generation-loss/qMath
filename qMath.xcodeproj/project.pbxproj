@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E753D50279BCB7C001A724A /* qPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D4F279BCB7B001A724A /* qPlane.h */; };
+		5E753D5A279E5A90001A724A /* qTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D58279E5A90001A724A /* qTriangle.h */; };
+		5E753D5E279E64D5001A724A /* qQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D5D279E64D5001A724A /* qQuad.h */; };
 		5EC09BDE1F7E99EF00DD6511 /* qCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */; };
 		AA747D9F0F9514B9006C5449 /* qMath_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* qMath_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		5E753D4F279BCB7B001A724A /* qPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qPlane.h; path = include/qPlane.h; sourceTree = "<group>"; };
+		5E753D58279E5A90001A724A /* qTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qTriangle.h; path = include/qTriangle.h; sourceTree = "<group>"; };
+		5E753D5D279E64D5001A724A /* qQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qQuad.h; path = include/qQuad.h; sourceTree = "<group>"; };
 		5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = qCamera.mm; path = src/qCamera.mm; sourceTree = "<group>"; };
 		5EC09BDF1F7E99FA00DD6511 /* qCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qCamera.h; path = include/qCamera.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* qMath_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qMath_Prefix.pch; sourceTree = SOURCE_ROOT; };
@@ -120,6 +124,8 @@
 				D27092D9116C595A007A11BE /* qMatrix4.h */,
 				5E753D4F279BCB7B001A724A /* qPlane.h */,
 				D2DC2D7B11E8E717007C35BB /* qRGBA.h */,
+				5E753D58279E5A90001A724A /* qTriangle.h */,
+				5E753D5D279E64D5001A724A /* qQuad.h */,
 				5EC09BDF1F7E99FA00DD6511 /* qCamera.h */,
 				5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */,
 				D2C674BB11548547006113D0 /* qRandom.h */,
@@ -167,6 +173,8 @@
 				5E753D50279BCB7C001A724A /* qPlane.h in Headers */,
 				D27092DA116C595A007A11BE /* qMatrix4.h in Headers */,
 				D2DC2D7C11E8E717007C35BB /* qRGBA.h in Headers */,
+				5E753D5E279E64D5001A724A /* qQuad.h in Headers */,
+				5E753D5A279E5A90001A724A /* qTriangle.h in Headers */,
 				D2FD1CA5131B6ECE00B48F05 /* qMatrix2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

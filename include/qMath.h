@@ -33,6 +33,9 @@ SOFTWARE.
 
 #include "qPlane.h"
 
+#include "qTriangle.h"
+#include "qQuad.h"
+
 #include "qCamera.h"
 #include "qRandom.h"
 #include "qRange.h"
