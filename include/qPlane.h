@@ -90,7 +90,7 @@ public:
 } __attribute__ ((aligned (ALIGN)));
 
 typedef qPlane_T<double, 8> qPlaned;
-typedef qVector4_T<float, 4> qPlane;
-typedef qVector4_T<half, 2> qPlaneh;
+typedef qPlane_T<float, 4> qPlane;
+typedef qPlane_T<half, 2> qPlaneh;
 
 #endif // __Q_PLANE_H__
