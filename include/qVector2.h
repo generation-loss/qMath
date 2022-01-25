@@ -24,6 +24,7 @@ SOFTWARE.
 #define __Q_VECTOR2_H__
 
 #include "qCore.h"
+#include "qUtil.h"
 #include <iostream>
 
 template<typename T, int ALIGN>
