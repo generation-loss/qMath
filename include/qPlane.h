@@ -54,7 +54,7 @@ public:
 	void Update(qVector3_T<T, ALIGN> _normal, qVector3_T<T, ALIGN> _origin)
 	{
 		normal = _normal;
-		normal.Noramlize();
+		normal.Normalize();
 		origin = _origin;
 		d = T(-1.0) * qVector3_T<T, ALIGN>::Dot(_normal, _origin);
 	}
