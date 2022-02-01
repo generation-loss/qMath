@@ -37,7 +37,7 @@ public:
     
     qPlane_T(qVector3_T<T, ALIGN> _normal, qVector3_T<T, ALIGN> _origin)
     {
-		UpdatePlane(_normal, _origin);
+		Update(_normal, _origin);
 	}
 	
     qPlane_T(const qPlane_T &p)
@@ -71,20 +71,26 @@ public:
 	
 #pragma mark util
 
-	T Distance( qVector3_T<T, ALIGN> point )
+	T Distance(qVector3_T<T, ALIGN> point)
 	{
-		return std::abs( qVector3_T<T, ALIGN>::Dot( normal, point ) + d );
+		return std::abs(qVector3_T<T, ALIGN>::Dot(normal, point) + d);
 	}
 	
-	qVector3_T<T, ALIGN> Location( T x, T y )
+	qVector3_T<T, ALIGN> Location(T x, T y)
 	{
 		T z = -d - normal.x * x - normal.y * y;
 		return qVector3(x, y, z);
 	}
 	
-	qVector3_T<T, ALIGN> Project( qVector3_T<T, ALIGN> point )
+	qVector3_T<T, ALIGN> Project(qVector3_T<T, ALIGN> point)
 	{
-		return point - normal * (qVector3_T<T, ALIGN>::Dot( point, normal) + d);
+		return point - normal * (qVector3_T<T, ALIGN>::Dot(point, normal) + d);
+	}
+	
+	friend std::ostream& operator<<(std::ostream& out, const qPlane_T& plane)
+	{
+		out << "plane [normal:" << plane.normal << ", origin: " << plane.origin << "]";
+		return out;
 	}
 
 } __attribute__ ((aligned (ALIGN)));
