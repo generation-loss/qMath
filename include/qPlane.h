@@ -56,7 +56,7 @@ public:
 		normal = _normal;
 		normal.Normalize();
 		origin = _origin;
-		d = T(-1.0) * qVector3_T<T, ALIGN>::Dot(_normal, _origin);
+		d = T(-1.0) * qVector3_T<T, ALIGN>::Dot(normal, origin);
 	}
     
 #pragma mark assignment
