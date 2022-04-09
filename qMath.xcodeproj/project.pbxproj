@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E4A259927F8092C00F6B6CB /* qMath.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C674C911549314006113D0 /* qMath.h */; };
-		5E4A259A27F8094800F6B6CB /* qVector2.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C674BC11548547006113D0 /* qVector2.h */; };
-		5E4A259B27F8095300F6B6CB /* qVector3.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F4B81E116A6B2E00BA1269 /* qVector3.h */; };
-		5E4A259C27F8095300F6B6CB /* qVector4.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C675CC11549E27006113D0 /* qVector4.h */; };
-		5E4A259D27F8095300F6B6CB /* qMatrix2.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FD1CA4131B6ECE00B48F05 /* qMatrix2.h */; };
-		5E4A259E27F8095300F6B6CB /* qMatrix3.h in Headers */ = {isa = PBXBuildFile; fileRef = D27091B4116BF02C007A11BE /* qMatrix3.h */; };
-		5E4A259F27F8095300F6B6CB /* qMatrix4.h in Headers */ = {isa = PBXBuildFile; fileRef = D27092D9116C595A007A11BE /* qMatrix4.h */; };
-		5E4A25A027F8095300F6B6CB /* qPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D4F279BCB7B001A724A /* qPlane.h */; };
-		5E4A25A127F8095300F6B6CB /* qRGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DC2D7B11E8E717007C35BB /* qRGBA.h */; };
-		5E4A25A227F8095300F6B6CB /* qTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D58279E5A90001A724A /* qTriangle.h */; };
-		5E4A25A327F8095300F6B6CB /* qQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D5D279E64D5001A724A /* qQuad.h */; };
-		5E4A25A427F8095300F6B6CB /* qCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC09BDF1F7E99FA00DD6511 /* qCamera.h */; };
-		5E4A25A527F8095300F6B6CB /* qRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C674BB11548547006113D0 /* qRandom.h */; };
-		5E4A25A627F8095300F6B6CB /* qRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D2540C3711557FDD000FD8B6 /* qRange.h */; };
-		5E4A25A727F8095300F6B6CB /* qUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEB9FA116517C60059DFF2 /* qUtil.h */; };
-		5E4A25A827F8095F00F6B6CB /* qCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */; };
-		5E4A25A927F8095F00F6B6CB /* qRandom.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2C674B711548543006113D0 /* qRandom.mm */; };
-		5E4A25AA27F8095F00F6B6CB /* qRange.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2540C3911557FE4000FD8B6 /* qRange.mm */; };
-		5E4A25AB27F8095F00F6B6CB /* qUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB9FC116517D60059DFF2 /* qUtil.mm */; };
-		5E4A25E727F80A2D00F6B6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A25E627F80A2D00F6B6CB /* Foundation.framework */; };
+		5E4A26AE27FBF43900F6B6CB /* qMath.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C674C911549314006113D0 /* qMath.h */; };
+		5E4A26AF27FBF43900F6B6CB /* qVector2.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C674BC11548547006113D0 /* qVector2.h */; };
+		5E4A26B027FBF43900F6B6CB /* qVector3.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F4B81E116A6B2E00BA1269 /* qVector3.h */; };
+		5E4A26B127FBF43900F6B6CB /* qVector4.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C675CC11549E27006113D0 /* qVector4.h */; };
+		5E4A26B227FBF43900F6B6CB /* qMatrix2.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FD1CA4131B6ECE00B48F05 /* qMatrix2.h */; };
+		5E4A26B327FBF43900F6B6CB /* qMatrix3.h in Headers */ = {isa = PBXBuildFile; fileRef = D27091B4116BF02C007A11BE /* qMatrix3.h */; };
+		5E4A26B427FBF43900F6B6CB /* qMatrix4.h in Headers */ = {isa = PBXBuildFile; fileRef = D27092D9116C595A007A11BE /* qMatrix4.h */; };
+		5E4A26B527FBF43900F6B6CB /* qPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D4F279BCB7B001A724A /* qPlane.h */; };
+		5E4A26B627FBF43900F6B6CB /* qRGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DC2D7B11E8E717007C35BB /* qRGBA.h */; };
+		5E4A26B727FBF43900F6B6CB /* qTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D58279E5A90001A724A /* qTriangle.h */; };
+		5E4A26B827FBF43900F6B6CB /* qQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D5D279E64D5001A724A /* qQuad.h */; };
+		5E4A26B927FBF43900F6B6CB /* qCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC09BDF1F7E99FA00DD6511 /* qCamera.h */; };
+		5E4A26BA27FBF43900F6B6CB /* qRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C674BB11548547006113D0 /* qRandom.h */; };
+		5E4A26BB27FBF43900F6B6CB /* qRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D2540C3711557FDD000FD8B6 /* qRange.h */; };
+		5E4A26BC27FBF43900F6B6CB /* qUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEB9FA116517C60059DFF2 /* qUtil.h */; };
+		5E4A26BD27FBF43900F6B6CB /* qMath_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* qMath_Prefix.pch */; };
+		5E4A26BE27FBF44400F6B6CB /* qCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5EC09BDD1F7E99EF00DD6511 /* qCamera.mm */; };
+		5E4A26BF27FBF44400F6B6CB /* qRandom.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2C674B711548543006113D0 /* qRandom.mm */; };
+		5E4A26C027FBF44400F6B6CB /* qRange.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2540C3911557FE4000FD8B6 /* qRange.mm */; };
+		5E4A26C127FBF44400F6B6CB /* qUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB9FC116517D60059DFF2 /* qUtil.mm */; };
+		5E4A26C227FBF44C00F6B6CB /* libqCore-macos-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A268D27FB445C00F6B6CB /* libqCore-macos-static.a */; };
+		5E4A26C327FBF45A00F6B6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4A25E627F80A2D00F6B6CB /* Foundation.framework */; };
 		5E753D50279BCB7C001A724A /* qPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D4F279BCB7B001A724A /* qPlane.h */; };
 		5E753D5A279E5A90001A724A /* qTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D58279E5A90001A724A /* qTriangle.h */; };
 		5E753D5E279E64D5001A724A /* qQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E753D5D279E64D5001A724A /* qQuad.h */; };
@@ -50,19 +52,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5E4A259427F808EF00F6B6CB /* PBXContainerItemProxy */ = {
+		5E4A268C27FB445C00F6B6CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D2C6746411548360006113D0 /* qCore.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5E4A256E27F8082B00F6B6CB;
-			remoteInfo = "qcore-macos";
+			remoteGlobalIDString = 5E4A266E27FB430900F6B6CB;
+			remoteInfo = "qCore-macos-static";
 		};
-		5E4A259727F8091700F6B6CB /* PBXContainerItemProxy */ = {
+		5E4A26AC27FBF42700F6B6CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D2C6746411548360006113D0 /* qCore.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E4A256D27F8082B00F6B6CB;
-			remoteInfo = "qcore-macos";
+			remoteGlobalIDString = 5E4A266D27FB430900F6B6CB;
+			remoteInfo = "qCore-macos-static";
 		};
 		D2C6746811548360006113D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -81,8 +83,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E4A258A27F808EF00F6B6CB /* libqMath-macos.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libqMath-macos.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4A25E627F80A2D00F6B6CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E4A26A227FBF41E00F6B6CB /* libqMath-macos-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libqMath-macos-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E753D4F279BCB7B001A724A /* qPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qPlane.h; path = include/qPlane.h; sourceTree = "<group>"; };
 		5E753D58279E5A90001A724A /* qTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qTriangle.h; path = include/qTriangle.h; sourceTree = "<group>"; };
 		5E753D5D279E64D5001A724A /* qQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qQuad.h; path = include/qQuad.h; sourceTree = "<group>"; };
@@ -109,11 +111,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E4A258827F808EF00F6B6CB /* Frameworks */ = {
+		5E4A26A027FBF41E00F6B6CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A25E727F80A2D00F6B6CB /* Foundation.framework in Frameworks */,
+				5E4A26C327FBF45A00F6B6CB /* Foundation.framework in Frameworks */,
+				5E4A26C227FBF44C00F6B6CB /* libqCore-macos-static.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libqMath.a */,
-				5E4A258A27F808EF00F6B6CB /* libqMath-macos.dylib */,
+				5E4A26A227FBF41E00F6B6CB /* libqMath-macos-static.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C6746911548360006113D0 /* libqCore.a */,
-				5E4A259527F808EF00F6B6CB /* libqcore-macos.dylib */,
+				5E4A268D27FB445C00F6B6CB /* libqCore-macos-static.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,25 +207,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5E4A258627F808EF00F6B6CB /* Headers */ = {
+		5E4A269E27FBF41E00F6B6CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A259B27F8095300F6B6CB /* qVector3.h in Headers */,
-				5E4A259C27F8095300F6B6CB /* qVector4.h in Headers */,
-				5E4A259D27F8095300F6B6CB /* qMatrix2.h in Headers */,
-				5E4A259E27F8095300F6B6CB /* qMatrix3.h in Headers */,
-				5E4A259F27F8095300F6B6CB /* qMatrix4.h in Headers */,
-				5E4A25A027F8095300F6B6CB /* qPlane.h in Headers */,
-				5E4A25A127F8095300F6B6CB /* qRGBA.h in Headers */,
-				5E4A25A227F8095300F6B6CB /* qTriangle.h in Headers */,
-				5E4A25A327F8095300F6B6CB /* qQuad.h in Headers */,
-				5E4A25A427F8095300F6B6CB /* qCamera.h in Headers */,
-				5E4A25A527F8095300F6B6CB /* qRandom.h in Headers */,
-				5E4A25A627F8095300F6B6CB /* qRange.h in Headers */,
-				5E4A25A727F8095300F6B6CB /* qUtil.h in Headers */,
-				5E4A259927F8092C00F6B6CB /* qMath.h in Headers */,
-				5E4A259A27F8094800F6B6CB /* qVector2.h in Headers */,
+				5E4A26BD27FBF43900F6B6CB /* qMath_Prefix.pch in Headers */,
+				5E4A26AE27FBF43900F6B6CB /* qMath.h in Headers */,
+				5E4A26AF27FBF43900F6B6CB /* qVector2.h in Headers */,
+				5E4A26B027FBF43900F6B6CB /* qVector3.h in Headers */,
+				5E4A26B127FBF43900F6B6CB /* qVector4.h in Headers */,
+				5E4A26B227FBF43900F6B6CB /* qMatrix2.h in Headers */,
+				5E4A26B327FBF43900F6B6CB /* qMatrix3.h in Headers */,
+				5E4A26B427FBF43900F6B6CB /* qMatrix4.h in Headers */,
+				5E4A26B527FBF43900F6B6CB /* qPlane.h in Headers */,
+				5E4A26B627FBF43900F6B6CB /* qRGBA.h in Headers */,
+				5E4A26B727FBF43900F6B6CB /* qTriangle.h in Headers */,
+				5E4A26B827FBF43900F6B6CB /* qQuad.h in Headers */,
+				5E4A26B927FBF43900F6B6CB /* qCamera.h in Headers */,
+				5E4A26BA27FBF43900F6B6CB /* qRandom.h in Headers */,
+				5E4A26BB27FBF43900F6B6CB /* qRange.h in Headers */,
+				5E4A26BC27FBF43900F6B6CB /* qUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,23 +255,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E4A258927F808EF00F6B6CB /* qMath-macos */ = {
+		5E4A26A127FBF41E00F6B6CB /* qMath-macos-static */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E4A259627F808EF00F6B6CB /* Build configuration list for PBXNativeTarget "qMath-macos" */;
+			buildConfigurationList = 5E4A26A827FBF41F00F6B6CB /* Build configuration list for PBXNativeTarget "qMath-macos-static" */;
 			buildPhases = (
-				5E4A258627F808EF00F6B6CB /* Headers */,
-				5E4A258727F808EF00F6B6CB /* Sources */,
-				5E4A258827F808EF00F6B6CB /* Frameworks */,
+				5E4A269E27FBF41E00F6B6CB /* Headers */,
+				5E4A269F27FBF41E00F6B6CB /* Sources */,
+				5E4A26A027FBF41E00F6B6CB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E4A259827F8091700F6B6CB /* PBXTargetDependency */,
+				5E4A26AD27FBF42700F6B6CB /* PBXTargetDependency */,
 			);
-			name = "qMath-macos";
-			productName = "qMath-macos";
-			productReference = 5E4A258A27F808EF00F6B6CB /* libqMath-macos.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
+			name = "qMath-macos-static";
+			productName = "qMath-macos-static";
+			productReference = 5E4A26A227FBF41E00F6B6CB /* libqMath-macos-static.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		D2AAC07D0554694100DB518D /* qMath */ = {
 			isa = PBXNativeTarget;
@@ -295,7 +299,7 @@
 			attributes = {
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					5E4A258927F808EF00F6B6CB = {
+					5E4A26A127FBF41E00F6B6CB = {
 						CreatedOnToolsVersion = 13.3;
 						DevelopmentTeam = MU45E745AK;
 						ProvisioningStyle = Automatic;
@@ -322,17 +326,17 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* qMath */,
-				5E4A258927F808EF00F6B6CB /* qMath-macos */,
+				5E4A26A127FBF41E00F6B6CB /* qMath-macos-static */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5E4A259527F808EF00F6B6CB /* libqcore-macos.dylib */ = {
+		5E4A268D27FB445C00F6B6CB /* libqCore-macos-static.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = "libqcore-macos.dylib";
-			remoteRef = 5E4A259427F808EF00F6B6CB /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = "libqCore-macos-static.a";
+			remoteRef = 5E4A268C27FB445C00F6B6CB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D2C6746911548360006113D0 /* libqCore.a */ = {
@@ -345,14 +349,14 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E4A258727F808EF00F6B6CB /* Sources */ = {
+		5E4A269F27FBF41E00F6B6CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A25A827F8095F00F6B6CB /* qCamera.mm in Sources */,
-				5E4A25A927F8095F00F6B6CB /* qRandom.mm in Sources */,
-				5E4A25AA27F8095F00F6B6CB /* qRange.mm in Sources */,
-				5E4A25AB27F8095F00F6B6CB /* qUtil.mm in Sources */,
+				5E4A26BE27FBF44400F6B6CB /* qCamera.mm in Sources */,
+				5E4A26BF27FBF44400F6B6CB /* qRandom.mm in Sources */,
+				5E4A26C027FBF44400F6B6CB /* qRange.mm in Sources */,
+				5E4A26C127FBF44400F6B6CB /* qUtil.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,10 +374,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E4A259827F8091700F6B6CB /* PBXTargetDependency */ = {
+		5E4A26AD27FBF42700F6B6CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "qcore-macos";
-			targetProxy = 5E4A259727F8091700F6B6CB /* PBXContainerItemProxy */;
+			name = "qCore-macos-static";
+			targetProxy = 5E4A26AC27FBF42700F6B6CB /* PBXContainerItemProxy */;
 		};
 		D2C6747A1154838F006113D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -507,7 +511,7 @@
 			};
 			name = Release;
 		};
-		5E4A259027F808EF00F6B6CB /* Debug */ = {
+		5E4A26A927FBF41F00F6B6CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,11 +529,11 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = MU45E745AK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -539,13 +543,14 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		5E4A259127F808EF00F6B6CB /* Release */ = {
+		5E4A26AA27FBF41F00F6B6CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -563,23 +568,28 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MU45E745AK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_TESTABILITY = NO;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		5E4A259227F808EF00F6B6CB /* Final */ = {
+		5E4A26AB27FBF41F00F6B6CB /* Final */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -597,16 +607,18 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MU45E745AK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -695,12 +707,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Final;
 		};
-		5E4A259627F808EF00F6B6CB /* Build configuration list for PBXNativeTarget "qMath-macos" */ = {
+		5E4A26A827FBF41F00F6B6CB /* Build configuration list for PBXNativeTarget "qMath-macos-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E4A259027F808EF00F6B6CB /* Debug */,
-				5E4A259127F808EF00F6B6CB /* Release */,
-				5E4A259227F808EF00F6B6CB /* Final */,
+				5E4A26A927FBF41F00F6B6CB /* Debug */,
+				5E4A26AA27FBF41F00F6B6CB /* Release */,
+				5E4A26AB27FBF41F00F6B6CB /* Final */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Final;
