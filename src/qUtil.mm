@@ -41,7 +41,7 @@ bool qIsPowerOfTwo(unsigned int val)
 }
 
 //public domain from http://www.burtleburtle.net/bob/hash/doobs.html
-qHashType qHash(const char *key, unsigned int len)
+qHashType qHash(const char* key, unsigned int len)
 {
     unsigned int hash, i;
     for(hash=0, i=0; i<len; ++i)
@@ -56,7 +56,7 @@ qHashType qHash(const char *key, unsigned int len)
     return hash;
 } 
 
-qHashType qHash(const char *key)
+qHashType qHash(const char* key)
 {
     unsigned int length = (unsigned int)strlen(key);
     return qHash(key, length);

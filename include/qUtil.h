@@ -26,8 +26,8 @@ SOFTWARE.
 #import "math.h"
 
 typedef unsigned int qHashType;
-qHashType qHash(const char *key, unsigned int len);
-qHashType qHash(const char *key);
+qHashType qHash(const char* key, unsigned int len);
+qHashType qHash(const char* key);
 
 unsigned int qPowerOfTwo(unsigned int val);
 bool qIsPowerOfTwo(unsigned int val);

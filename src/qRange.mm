@@ -25,22 +25,22 @@ SOFTWARE.
 qRangeF qJSON::RangeF(NSDictionary* JSON, NSString* key, qRangeF defaultValue)
 {
 	qRangeF result = defaultValue;
-	NSArray *rangeArray = [JSON objectForKey:key];
+	NSArray* rangeArray = [JSON objectForKey:key];
 	if (rangeArray != nil)
 	{
-		NSNumber *lowRange = rangeArray[0];
+		NSNumber* lowRange = rangeArray[0];
 		if (lowRange != nil)
 		{
 			result.min = lowRange.floatValue;
 		}
-		NSNumber *highRange = rangeArray[1];
+		NSNumber* highRange = rangeArray[1];
 		if (highRange != nil)
 		{
 			result.max = highRange.floatValue;
 		}
 		if (rangeArray.count > 2)
 		{
-			NSString *modeString = rangeArray[2];
+			NSString* modeString = rangeArray[2];
 			if ([modeString isEqualToString:@"uniform"])
 			{
 				result.sampleMode = qRangeF::eSampleMode_Uniform;
@@ -61,22 +61,22 @@ qRangeF qJSON::RangeF(NSDictionary* JSON, NSString* key, qRangeF defaultValue)
 qRangeI qJSON::RangeI(NSDictionary* JSON, NSString* key, qRangeI defaultValue)
 {
 	qRangeI result = defaultValue;
-	NSArray *rangeArray = [JSON objectForKey:key];
+	NSArray* rangeArray = [JSON objectForKey:key];
 	if (rangeArray != nil)
 	{
-		NSNumber *lowRange = rangeArray[0];
+		NSNumber* lowRange = rangeArray[0];
 		if (lowRange != nil)
 		{
 			result.min = lowRange.intValue;
 		}
-		NSNumber *highRange = rangeArray[1];
+		NSNumber* highRange = rangeArray[1];
 		if (highRange != nil)
 		{
 			result.max = highRange.intValue;
 		}
 		if (rangeArray.count > 2)
 		{
-			NSString *modeString = rangeArray[2];
+			NSString* modeString = rangeArray[2];
 			if ([modeString isEqualToString:@"uniform"])
 			{
 				result.sampleMode = qRangeI::eSampleMode_Uniform;
@@ -97,19 +97,19 @@ qRangeI qJSON::RangeI(NSDictionary* JSON, NSString* key, qRangeI defaultValue)
 qRangeF qJSON::RangeF(NSArray* rangeArray, qRangeF defaultValue)
 {
 	qRangeF result = defaultValue;
-	NSNumber *lowRange = rangeArray[0];
+	NSNumber* lowRange = rangeArray[0];
 	if (lowRange != nil)
 	{
 		result.min = lowRange.floatValue;
 	}
-	NSNumber *highRange = rangeArray[1];
+	NSNumber* highRange = rangeArray[1];
 	if (highRange != nil)
 	{
 		result.max = highRange.floatValue;
 	}
 	if (rangeArray.count > 2)
 	{
-		NSString *modeString = rangeArray[2];
+		NSString* modeString = rangeArray[2];
 		if ([modeString isEqualToString:@"uniform"])
 		{
 			result.sampleMode = qRangeF::eSampleMode_Uniform;
@@ -129,19 +129,19 @@ qRangeF qJSON::RangeF(NSArray* rangeArray, qRangeF defaultValue)
 qRangeI qJSON::RangeI(NSArray* rangeArray, qRangeI defaultValue)
 {
 	qRangeI result = defaultValue;
-	NSNumber *lowRange = rangeArray[0];
+	NSNumber* lowRange = rangeArray[0];
 	if (lowRange != nil)
 	{
 		result.min = lowRange.intValue;
 	}
-	NSNumber *highRange = rangeArray[1];
+	NSNumber* highRange = rangeArray[1];
 	if (highRange != nil)
 	{
 		result.max = highRange.intValue;
 	}
 	if (rangeArray.count > 2)
 	{
-		NSString *modeString = rangeArray[2];
+		NSString* modeString = rangeArray[2];
 		if ([modeString isEqualToString:@"uniform"])
 		{
 			result.sampleMode = qRangeI::eSampleMode_Uniform;
